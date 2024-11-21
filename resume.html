@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
-
+<body class="min-h-screen bg-gray-400">
+  <header class="bg-black text-white flex sticky">
+    <a href="index.html">
+      <img src="assets/img/puzzle-match-fit-missing-small.jpg" alt="puzzle" width="198" height="150">
+    </a>
+    <section class="flex grow justify-between items-center p-6">
+      <h1 class="font-bold text-site-green ml-4 md:text-6xl">About Me</h1>
+      <button class="md:hidden">&#9776</button>
+      <nav class="hidden md:block">
+        <ul class="list-disc list-inside text-nowrap">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main class="bg-white max-w-5xl mx-auto min-h-screen">
+    <article class="grid grid-cols-1 p-16">
+      <h2 class="text-3xl font-bold">Susan O'Neil</h2>
+      <section class="py-8">
+        <h3 class="text-2xl">Summary</h3>
+        <p class="pt-4">Upcoming graduate with a Certificate IV in Information Technology, specialising in Programming,
+          with practical experience in developing and implementing software solutions. Skilled in coding languages such
+          as Python, JavaScript, and C#, and adept at problem-solving and debugging. Committed to creating efficient,
+          high-quality programs and contributing to innovative technology projects.
+          <!-- Summary source: Resume template by Daniel Powell of NMTAFE job centre, edited -->
+        </p>
+      </section>
+      <section class="py-8">
+        <h3 class="text-2xl">Education</h3>
+        <p class="py-4">
+        <dl>
+          <dt class="italic">North Metropolitan TAFE</dt>
+          <dd class="flex flex-row justify-between">
+            <span>Certificate IV in Information Technology (Programming)</span><span>February 2023 – Present</span>
+          </dd>
+        </dl>
+      </section>
+      <section class="py-8">
+        <h3 class="text-2xl">Skills</h3>
+        <ul class="py-4 list-disc pl-8">
+          <li>Python</li>
+          <li>C#</li>
+          <li>SQL</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+  <footer class="bg-black text-white flex justify-between items-center p-6 bottom-0 w-full">
+    <p>&copy;Copyright 2024 Susan O'Neil</p>
+    <nav>
+      <ul class="list-disc list-inside text-nowrap">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
