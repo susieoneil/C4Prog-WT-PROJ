@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact</title>
   <link rel="stylesheet" href="assets/css/site.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
 </head>
 <body class="min-h-screen bg-gray-400">
   <header class="bg-black text-white flex sticky">
@@ -24,7 +25,35 @@
       </nav>
     </section>
   </header>
-  <footer class="bg-black text-white flex justify-between items-center p-6">
+  <main class="bg-white max-w-5xl mx-auto min-h-screen">
+    <article class="grid grid-cols-1 md:grid-cols-4">
+      <form action="mailto:20103375@tafe.wa.edu.au" method="post" enctype="text/plain"
+            class="max-w-4xl mx-auto flex flex-col items-left mx-4 gap-4 col-start-1 col-end-2 md:col-end-4 p-6">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"
+               class="w-full text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"
+               class="w-full md:-3/4 text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"
+                  class="w-full md:-3/4 text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400"></textarea>
+        <button type="submit"
+                class="w-full md:-3/4 text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400">
+          Send
+        </button>
+      </form>
+      <aside class="flex flex-row md:flex-col text-3xl gap-4 justify-self-center p-6">
+        <a href="https://www.linkedin.com/in/susie-o-neil-5962242a4/">
+          <i class="fi fi-brands-linkedin"></i>
+        </a>
+        <a href="https://github.com/susieoneil">
+          <i class="fi fi-brands-github"></i>
+        </a>
+      </aside>
+    </article>
+  </main>
+  <footer class="bg-black text-white flex justify-between items-center p-6 bottom-0 w-full">
     <p>&copy;Copyright 2024 Susan O'Neil</p>
     <nav>
       <ul class="list-disc list-inside text-nowrap">
