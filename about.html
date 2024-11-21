@@ -2,9 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
-
+<body class="min-h-screen bg-gray-400">
+  <header class="bg-black text-white flex sticky">
+    <a href="index.html">
+      <img src="assets/img/puzzle-match-fit-missing-small.jpg" alt="puzzle" width="198" height="150">
+    </a>
+    <section class="flex grow justify-between items-center p-6">
+      <h1 class="font-bold text-site-red ml-4 md:text-6xl">About Me</h1>
+      <button class="md:hidden">&#9776</button>
+      <nav class="hidden md:block">
+        <ul class="list-disc list-inside text-nowrap">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main class="bg-white max-w-5xl mx-auto min-h-screen">
+    <article class="grid grid-cols-1 md:grid-cols-2 justify-items-center p-16">
+      <section class="m-4 p-6">
+        <h3 class="text-2xl font-bold italic">I'm a problem solver.</h3>
+        <p class="pl-16 pt-3">Hi, I'm Susie O'Neil. <br>
+          If there's something to solve, I'll be there.</p>
+      </section>
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <img src="assets/img/noun-icon-80027-FF3030.svg" alt="code image">
+        <div class="p-3">
+          <h3 class="text-2xl font-bold pb-4">I love code</h3>
+          <p>Working out cool app designs and hunting down pesky bugs is my jam.</p>
+        </div>
+      </section>
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <img src="assets/img/family-tree_1504329.png" alt="code image">
+        <div class="p-3">
+          <h3 class="text-2xl font-bold pb-4">DNA detective</h3>
+          <p>I love to solve mysteries using both traditional and genetic genealogy</p>
+        </div>
+      </section>
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <div class="p-3">
+          <h3 class="text-2xl font-bold pb-4">Super Mum</h3>
+          <p>Need a cake or that super specific costume made at the last minute? <br>I make it happen.</p>
+        </div>
+        <img src="assets/img/dalek-cake.JPG" alt="code image">
+      </section>
+    </article>
+  </main>
+  <footer class="bg-black text-white flex justify-between items-center p-6 bottom-0 w-full">
+    <p>&copy;Copyright 2024 Susan O'Neil</p>
+    <nav>
+      <ul class="list-disc list-inside text-nowrap">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
