@@ -562,6 +562,10 @@ video {
   bottom: 0px;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -598,18 +602,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-3\/5 {
-  height: 60%;
 }
 
 .h-4\/5 {
@@ -666,6 +658,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-start {
+  justify-items: start;
 }
 
 .justify-items-center {
@@ -746,8 +742,16 @@ video {
   padding-bottom: 1rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pl-16 {
   padding-left: 4rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pl-8 {
@@ -850,14 +854,6 @@ nav li:nth-of-type(4)::marker {
   color: dodgerblue;
 }
 
-.hover\:font-medium:hover {
-  font-weight: 500;
-}
-
-.hover\:font-bold:hover {
-  font-weight: 700;
-}
-
 .hover\:text-site-blue:hover {
   --tw-text-opacity: 1;
   color: rgb(30 144 255 / var(--tw-text-opacity, 1));
@@ -871,6 +867,10 @@ nav li:nth-of-type(4)::marker {
 }
 
 @media (min-width: 768px) {
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .md\:col-end-4 {
     grid-column-end: 4;
   }
@@ -885,6 +885,10 @@ nav li:nth-of-type(4)::marker {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4 {
