@@ -586,10 +586,6 @@ video {
   margin: 1rem;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -616,11 +612,6 @@ video {
   display: none;
 }
 
-.size-full {
-  width: 100%;
-  height: 100%;
-}
-
 .h-4\/5 {
   height: 80%;
 }
@@ -639,23 +630,6 @@ video {
 
 .max-w-5xl {
   max-width: 64rem;
-}
-
-.max-w-screen-2xl {
-  max-width: 1536px;
-}
-
-.max-w-full {
-  max-width: 100%;
-}
-
-.max-w-fit {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.max-w-screen-md {
-  max-width: 768px;
 }
 
 .grow {
@@ -764,14 +738,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .py-4 {
@@ -900,13 +866,13 @@ nav li:nth-of-type(4)::marker {
   color: dodgerblue;
 }
 
+a:hover, a:focus {
+  opacity: 80%;
+}
+
 .hover\:text-site-blue:hover {
   --tw-text-opacity: 1;
   color: rgb(30 144 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:opacity-80:hover {
-  opacity: 0.8;
 }
 
 @media (min-width: 640px) {

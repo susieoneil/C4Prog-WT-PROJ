@@ -42,3 +42,7 @@ nav li:nth-of-type(3)::marker {
 nav li:nth-of-type(4)::marker {
     color: dodgerblue;
 }
+
+a:hover, a:focus {
+    opacity: 80%;
+}
