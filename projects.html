@@ -2,9 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects</title>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
-
+<body class="min-h-screen bg-gray-400">
+  <header class="bg-black text-white flex sticky">
+    <a href="index.html">
+      <img src="assets/img/puzzle-match-fit-missing-small.jpg" alt="puzzle" width="198" height="150">
+    </a>
+    <section class="flex grow justify-between items-center p-6">
+      <h1 class="font-bold text-site-blue ml-4 md:text-6xl">Projects</h1>
+      <button class="md:hidden">&#9776</button>
+      <nav class="hidden md:block">
+        <ul class="list-disc list-inside text-nowrap">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main class="bg-white max-w-5xl mx-auto min-h-screen">
+    <article class="grid grid-cols-1 md:grid-cols-2 justify-items-center p-16">
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <img src="assets/img/guess-my-word-small.PNG" alt="cmd wordle clone">
+        <div class="p-3">
+          <h3 class="text-2xl font-bold pb-4">Learn Python</h3>
+          <p>My first major project was a command line based Wordle clone.</p>
+        </div>
+      </section>
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <img src="assets/img/angry.png" alt="angry emoji 16x16">
+        <div class="p-3">
+          <h3 class="text-2xl font-bold pb-4">SenseHat</h3>
+          <p>I created this fine fellow for a smiley program in Python that talks to a Raspberry Pi.</p>
+        </div>
+      </section>
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <div class="flex flex-col justify-between">
+          <div class="p-3">
+            <h3 class="text-2xl font-bold pb-4">C# / SQL</h3>
+            <p>I created a WPF database app to track employees, clients, products and branches of a sample business.</p>
+          </div>
+          <a href="mywork.html" class="hover:text-site-blue">View More &#8594;</a>
+        </div>
+        <div class="flex flex-col gap-4">
+          <img src="assets/img/employee-dialog.PNG" alt="wpf app">
+        </div>
+      </section>
+      <section class="border border-gray-400 rounded m-4 p-6 grid grid-cols-2">
+        <div class="p-3">
+          <h3 class="text-2xl font-bold pb-4">HTML / CSS / JavaScript</h3>
+          <p>I designed a webpage containing a small app to get quotes and celebrity stats from an API.</p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <img src="assets/img/api-app.PNG" alt="api app">
+          <a href="https://dev.screencraft.net.au/~oneilsus/" class="hover:text-site-blue">See the project here
+            &#8594;</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="bg-black text-white flex justify-between items-center p-6 bottom-0 w-full">
+    <p>&copy;Copyright 2024 Susan O'Neil</p>
+    <nav>
+      <ul class="list-disc list-inside text-nowrap">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>

@@ -716,11 +716,6 @@ video {
   padding: 1.5rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -731,21 +726,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -754,12 +734,12 @@ video {
   padding-left: 4rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .pt-4 {
@@ -787,6 +767,11 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-site-blue {
+  --tw-text-opacity: 1;
+  color: rgb(30 144 255 / var(--tw-text-opacity, 1));
 }
 
 .text-site-green {
@@ -847,6 +832,19 @@ nav li:nth-of-type(3)::marker {
 
 nav li:nth-of-type(4)::marker {
   color: dodgerblue;
+}
+
+.hover\:font-medium:hover {
+  font-weight: 500;
+}
+
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
+.hover\:text-site-blue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 144 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px) {
