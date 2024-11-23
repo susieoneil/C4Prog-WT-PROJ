@@ -562,6 +562,14 @@ video {
   bottom: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -658,6 +666,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-items-start {
@@ -857,6 +869,10 @@ nav li:nth-of-type(4)::marker {
 .hover\:text-site-blue:hover {
   --tw-text-opacity: 1;
   color: rgb(30 144 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 640px) {

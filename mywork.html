@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body class="min-h-screen bg-gray-400">
-  <header class="bg-black text-white flex sticky">
+  <header class="bg-black text-white flex sticky top-0">
     <a href="index.html">
       <img src="assets/img/puzzle-match-fit-missing-small.jpg" alt="puzzle" width="198" height="150">
     </a>
     <section class="flex grow justify-between items-center p-6">
       <h1 class="font-bold text-site-red ml-4 md:text-6xl">My Work</h1>
-      <button class="md:hidden">&#9776</button>
+      <button id="nav-button" class="md:hidden">&#9776</button>
       <nav class="hidden md:block">
         <ul class="list-disc list-inside text-nowrap">
           <li><a href="about.html">About</a></li>
@@ -24,6 +24,15 @@
       </nav>
     </section>
   </header>
+  <nav id="nav-menu" class="bg-black hidden md:hidden sticky top-12">
+    <ul class="text-nowrap flex justify-around">
+      <li class="hover:opacity-80 text-white"><a href="index.html">Home</a></li>
+      <li class="hover:opacity-80 text-site-red"><a href="about.html">About</a></li>
+      <li class="hover:opacity-80 text-site-yellow"><a href="contact.html">Contact</a></li>
+      <li class="hover:opacity-80 text-site-green"><a href="resume.html">Resume</a></li>
+      <li class="hover:opacity-80 text-site-blue"><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
   <main class="bg-white max-w-5xl mx-auto min-h-screen">
     <article class="grid grid-cols-1 justify-items-start p-16">
       <section class="pl-6 pb-6">
@@ -69,5 +78,6 @@
       </ul>
     </nav>
   </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
