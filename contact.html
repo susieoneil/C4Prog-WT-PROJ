@@ -36,17 +36,19 @@
   </nav>
   <main class="bg-white max-w-5xl mx-auto min-h-screen">
     <article class="grid grid-cols-1 md:grid-cols-4">
-      <form action="mailto:20103375@tafe.wa.edu.au" method="post" enctype="text/plain"
+      <form action="https://api.web3forms.com/submit" method="post"
             class="max-w-4xl mx-auto flex flex-col items-left mx-4 gap-4 col-start-1 col-end-2 md:col-end-4 p-6">
+        <input type="hidden" name="access_key" value="1d2ad0c4-3980-430a-8002-45f3d23e98cd">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name"
+        <input type="text" id="name" name="name" required
                class="w-full text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400">
         <label for="email">Email</label>
-        <input type="email" id="email" name="email"
+        <input type="email" id="email" name="email" required
                class="w-full md:-3/4 text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400">
         <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10"
+        <textarea id="message" name="message" required cols="30" rows="10"
                   class="w-full md:-3/4 text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400"></textarea>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <button type="submit"
                 class="w-full md:-3/4 text-black sm:text-3xl p-3 rounded-xl border border-solid border-gray-400">
           Send
